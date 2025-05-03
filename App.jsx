@@ -1,16 +1,15 @@
-import React from 'react';
-import { Provider } from 'react-redux';
-import Home from './src/screens/Home';
-import { store } from './redux/store/store';
-
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+import Home from './src/screens/Home'
 
 const App = () => {
   return (
-    <Provider store={store}>
+    <View>
       <Home />
-    </Provider>
-  );
-};
+    </View>
+  )
+}
 
-export default App;
+export default App
 
+const styles = StyleSheet.create({})
